@@ -14,7 +14,6 @@ app.get("/style.css",function(req,res){
  app.get("/",function(req,res){
 res.sendFile(__dirname+"/index.html")
 
-console.log("Server Porst 3000");
  });
 
  app.post("/",function(req,res){
@@ -25,13 +24,3 @@ console.log("Server Porst 3000");
 res.send("Result =  "+result1)
 
  })
-
-
-
-//  app.get("/result",function(req,res){
-//     res.send("index.html>")
-    
-    
-//      });
-
-//  app.listen(3000);
